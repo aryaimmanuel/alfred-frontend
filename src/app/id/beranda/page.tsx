@@ -1,13 +1,6 @@
 export default function Home() {
   return (
     <div className="w-full flex flex-col items-center justify-center gap-3">
-      <header className="w-full px-3 py-5 flex items-center justify-center gap-5 bg-gray-300">
-        <div className="w-full max-w-5xl flex items-center justify-between gap-5">
-          <span>Logo</span>
-          <div className="w-8 h-8 rounded-full bg-slate-900"></div>
-        </div>
-      </header>
-
       <section className="w-full px-3 py-5 flex items-center justify-center gap-5">
         <div className="w-full max-w-5xl flex flex-col items-center justify-center gap-5">
           <div className="w-64 h-36 rounded-md bg-slate-600"></div>
@@ -63,13 +56,6 @@ export default function Home() {
           <button>Cari Lowongan</button>
         </div>
       </section>
-
-      <footer className="w-full px-3 py-5 flex flex-col gap-5 bg-slate-600">
-        <span>Logo</span>
-        <button>Link 1</button>
-        <button>Link 2</button>
-        <button>Link 3</button>
-      </footer>
     </div>
   );
 }
