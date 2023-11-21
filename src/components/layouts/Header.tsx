@@ -13,13 +13,13 @@ export default function Header() {
           <span className="text-4xl">Alfred</span>
           <div className="hidden items-center gap-2 sm:flex">
             <Link
-              href={"/beranda"}
+              href={"/id/beranda"}
               className="px-5 py-3 rounded-full hover:bg-slate-100"
             >
               Beranda
             </Link>
             <Link
-              href={"/explore"}
+              href={"/id/explore"}
               className="px-5 py-3 rounded-full hover:bg-slate-100"
             >
               Explore
@@ -69,13 +69,13 @@ export default function Header() {
 
               <div className="flex flex-col items-end gap-2 border-b pb-3 text-right sm:hidden">
                 <Link
-                  href={"/beranda"}
+                  href={"/id/beranda"}
                   className="w-full px-5 py-3 rounded-full hover:bg-slate-100"
                 >
                   Beranda
                 </Link>
                 <Link
-                  href={"/explore"}
+                  href={"/id/explore"}
                   className="w-full px-5 py-3 rounded-full hover:bg-slate-100"
                 >
                   Explore
