@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans, Poppins } from "next/font/google";
 import "./globals.css";
+import LayoutWrapper from "@/components/layouts/LayoutWrapper";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -28,9 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.variable} ${openSans.variable}`}>
-        <div className="w-full flex flex-col items-center justify-center">
-          {children}
-        </div>
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );
