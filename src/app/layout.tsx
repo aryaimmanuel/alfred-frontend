@@ -5,13 +5,13 @@ import LayoutWrapper from "@/components/layouts/LayoutWrapper";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
   variable: "--font-poppins",
 });
 const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
   variable: "--font-open-sans",
 });
