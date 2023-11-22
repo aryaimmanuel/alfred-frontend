@@ -39,13 +39,19 @@ export default function Header() {
             />
           </div>
 
-          <button className="px-5 py-3 rounded-full bg-[#F0EEFF]">
+          <Link
+            href={"/id/login"}
+            className="px-5 py-3 rounded-full bg-[#F0EEFF]"
+          >
             Log In
-          </button>
+          </Link>
 
-          <button className="px-5 py-3 rounded-full bg-[#5F4BDB] text-white">
+          <Link
+            href={"/id/signup"}
+            className="px-5 py-3 rounded-full bg-[#5F4BDB] text-white"
+          >
             Sign Up
-          </button>
+          </Link>
         </div>
 
         {/* Search Bar & Log in/Sign Up - Mobile */}
